@@ -17,10 +17,9 @@ body {
   text-align: center;
   background-color: white;
   display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-gap: 10px;
-  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: 100%; 
 }
 
 .aboutMeTitle{
@@ -90,5 +89,20 @@ body {
   background-color: black;
   color: white;
   height: 5%;
-  width: 100%
+  width: 100%;
+}
+
+#mountSherman{
+  width: 400px;
+  height: 300px;
+}
+
+#vrImage{
+  width: 400px;
+  height: 300px;
+}
+
+#ancientArt{
+  width: 400px;
+  height: 300px;
 }
