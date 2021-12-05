@@ -11,6 +11,7 @@ body {
   background-color: black;
   color:white; 
   padding-left: 3%;
+  text-align: center;
 }
 
 .moreInformation{
@@ -105,4 +106,13 @@ body {
 #ancientArt{
   width: 400px;
   height: 300px;
+}
+
+.buttons{
+  background-color: hotpink;
+  border: none;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
 }
