@@ -1,3 +1,94 @@
 body {
-    background: blue;
+    background: black;
   }
+
+#bannerImage{
+  width: 100%;
+  height: 400px;
+}
+
+#tagLine {
+  background-color: black;
+  color:white; 
+  padding-left: 3%;
+}
+
+.moreInformation{
+  text-align: center;
+  background-color: white;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.aboutMeTitle{
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+
+.aboutMeImage {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+
+.aboutMeButton {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+
+.twtTitle{
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+
+.twtImage {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+
+.twtButton {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+
+.otherInterestsTitle{
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+}
+
+.othereInterestsImage {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+
+.othereInterestsImage {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  height: 5%;
+  width: 100%
+}
